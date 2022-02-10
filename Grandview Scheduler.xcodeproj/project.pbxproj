@@ -11,6 +11,17 @@
 		D233442727B3511300718851 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233442627B3511300718851 /* ContentView.swift */; };
 		D233442927B3511500718851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D233442827B3511500718851 /* Assets.xcassets */; };
 		D233442C27B3511500718851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D233442B27B3511500718851 /* Preview Assets.xcassets */; };
+		D233443727B3518D00718851 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233443627B3518D00718851 /* Home.swift */; };
+		D233443927B351A000718851 /* Custom Date Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233443827B351A000718851 /* Custom Date Picker.swift */; };
+		D233443C27B351BC00718851 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233443B27B351BC00718851 /* Task.swift */; };
+		D233443E27B351D200718851 /* TaskForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233443D27B351D200718851 /* TaskForm.swift */; };
+		D233444027B351EC00718851 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233443F27B351EC00718851 /* DateValue.swift */; };
+		D233444227B3520F00718851 /* ExtracirricularsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233444127B3520F00718851 /* ExtracirricularsDetails.swift */; };
+		D233444427B3522300718851 /* ExtracirricularDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233444327B3522300718851 /* ExtracirricularDetailView.swift */; };
+		D233444827B3526300718851 /* ExtracirricularsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233444727B3526300718851 /* ExtracirricularsList.swift */; };
+		D233444A27B3528D00718851 /* LunchMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233444927B3528D00718851 /* LunchMenu.swift */; };
+		D28D633E27B42A82005CF3F7 /* LinkDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28D633D27B42A82005CF3F7 /* LinkDetails.swift */; };
+		D28D634027B42E4F005CF3F7 /* LunchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28D633F27B42E4F005CF3F7 /* LunchList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		D233442627B3511300718851 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D233442827B3511500718851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D233442B27B3511500718851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D233443627B3518D00718851 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D233443827B351A000718851 /* Custom Date Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Date Picker.swift"; sourceTree = "<group>"; };
+		D233443B27B351BC00718851 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D233443D27B351D200718851 /* TaskForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskForm.swift; sourceTree = "<group>"; };
+		D233443F27B351EC00718851 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		D233444127B3520F00718851 /* ExtracirricularsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtracirricularsDetails.swift; sourceTree = "<group>"; };
+		D233444327B3522300718851 /* ExtracirricularDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtracirricularDetailView.swift; sourceTree = "<group>"; };
+		D233444727B3526300718851 /* ExtracirricularsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtracirricularsList.swift; sourceTree = "<group>"; };
+		D233444927B3528D00718851 /* LunchMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchMenu.swift; sourceTree = "<group>"; };
+		D28D633D27B42A82005CF3F7 /* LinkDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkDetails.swift; sourceTree = "<group>"; };
+		D28D633F27B42E4F005CF3F7 /* LunchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,10 @@
 		D233442327B3511300718851 /* Grandview Scheduler */ = {
 			isa = PBXGroup;
 			children = (
+				D233443327B3514500718851 /* Links */,
+				D233443227B3513B00718851 /* Extracirriculars */,
+				D233443427B3514C00718851 /* Model */,
+				D233443527B3516000718851 /* View */,
 				D233442427B3511300718851 /* Grandview_SchedulerApp.swift */,
 				D233442627B3511300718851 /* ContentView.swift */,
 				D233442827B3511500718851 /* Assets.xcassets */,
@@ -65,6 +91,45 @@
 				D233442B27B3511500718851 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D233443227B3513B00718851 /* Extracirriculars */ = {
+			isa = PBXGroup;
+			children = (
+				D233444127B3520F00718851 /* ExtracirricularsDetails.swift */,
+				D233444327B3522300718851 /* ExtracirricularDetailView.swift */,
+				D233444727B3526300718851 /* ExtracirricularsList.swift */,
+			);
+			path = Extracirriculars;
+			sourceTree = "<group>";
+		};
+		D233443327B3514500718851 /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				D233444927B3528D00718851 /* LunchMenu.swift */,
+				D28D633D27B42A82005CF3F7 /* LinkDetails.swift */,
+				D28D633F27B42E4F005CF3F7 /* LunchList.swift */,
+			);
+			path = Links;
+			sourceTree = "<group>";
+		};
+		D233443427B3514C00718851 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D233443B27B351BC00718851 /* Task.swift */,
+				D233443D27B351D200718851 /* TaskForm.swift */,
+				D233443F27B351EC00718851 /* DateValue.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D233443527B3516000718851 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D233443627B3518D00718851 /* Home.swift */,
+				D233443827B351A000718851 /* Custom Date Picker.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +203,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D233442727B3511300718851 /* ContentView.swift in Sources */,
+				D233443727B3518D00718851 /* Home.swift in Sources */,
+				D233443E27B351D200718851 /* TaskForm.swift in Sources */,
+				D233443C27B351BC00718851 /* Task.swift in Sources */,
+				D233444827B3526300718851 /* ExtracirricularsList.swift in Sources */,
+				D233444427B3522300718851 /* ExtracirricularDetailView.swift in Sources */,
+				D233444A27B3528D00718851 /* LunchMenu.swift in Sources */,
+				D233443927B351A000718851 /* Custom Date Picker.swift in Sources */,
+				D28D633E27B42A82005CF3F7 /* LinkDetails.swift in Sources */,
+				D233444227B3520F00718851 /* ExtracirricularsDetails.swift in Sources */,
+				D233444027B351EC00718851 /* DateValue.swift in Sources */,
+				D28D634027B42E4F005CF3F7 /* LunchList.swift in Sources */,
 				D233442527B3511300718851 /* Grandview_SchedulerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
